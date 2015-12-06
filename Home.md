@@ -51,11 +51,17 @@ External WiFi card
 
 [Build Cyanogenmod](https://wiki.cyanogenmod.org/w/Build_for_jflte)
 
+Or
+
+[Other Info](http://androidforums.com/threads/building-cm12-work-in-progress-join-in.891676/)
+
 If all run ok, We will build a new Cyanogenmod + Kernel , 
 
 Now,  lets build the with Monitor Mode support
 
-3. Add Monitor Mode into Cyanogenmod
+3. Add Monitor Mode support in Cyanogenmod
+
+
 
 
 
