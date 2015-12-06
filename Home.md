@@ -46,14 +46,16 @@ External WiFi card
 
 1. I am using VirtualBox with fresh installed Ubuntu 14.04 LTS,
 
-2. We need to Download Cyanogenmod env, follow this tut:
+2. We need to Download Cyanogenmod prerequisites, follow this tut:
 
 
 [Build Cyanogenmod](https://wiki.cyanogenmod.org/w/Build_for_jflte)
 
-It will build Cyanogenmod + Kernel , If All run ok, lets do the Patch
+If all run ok, We will build a new Cyanogenmod + Kernel , now,  lets do the Monitor Mode Patch
 
 3. Add Monitor Mode into Cyanogenmod
+
+
 
 
 
