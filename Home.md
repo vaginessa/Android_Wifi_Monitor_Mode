@@ -61,7 +61,25 @@ Now,  lets build the with Monitor Mode support
 
 3. Add Monitor Mode support in Cyanogenmod
 
+4. How to Build Kernel Only
 
+Build BootImage:
+
+. build/envsetup.sh
+
+lunch cm_n7100-userdebug 
+or 
+lunch cm_n7100-eng
+
+mka bootimage
+
+adb reboot bootloader
+
+sudo heimdall flash --BOOT boot.img --no-reboot
+(For Samsung Device, apt-get install heimdall )
+or
+sudo fastboot flash boot boot.img
+(For Other Device, apt-get install fastboot )
 
 
 
