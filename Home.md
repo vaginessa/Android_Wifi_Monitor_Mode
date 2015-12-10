@@ -1,9 +1,9 @@
 Hi All,
 
-I am writing some notes about Monitor Mode in mobile,
+I am writing some notes about Monitor Mode on mobile,
 
-N900 is the only phone that have build in Wifi With Monitor Mode Support,
-You can Install N900 image here:
+N900 is the only phone that have a build in Wifi With Monitor Mode Support,
+You can Install N900 image from here:
 
 [pwnieexpress](https://www.pwnieexpress.com/)
 
