@@ -1,3 +1,12 @@
+Hi All,
+
+I am writing some notes about Monitor Mode in mobile,
+
+N900 is the only phone that have build in Wifi With Monitor Mode Support,
+You can Install N900 image here:
+
+[pwnieexpress](https://www.pwnieexpress.com/)
+
 ## **Any android device**
 
 Cyanogenmod provides you with an option to build your own Cyanogen-build and integrated kernel building. With this you can compile an compatible kernel for your phone with desirable features. Here's a post that walks you through the process.
