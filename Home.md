@@ -72,6 +72,11 @@ Now,  lets build the with Monitor Mode support
 Some kernels have mess up with ath Driver so here is my solution:
 
 drivers/net/wireless/ath 
+--> remove from MakeFile all 3 lines with compat,
+copy & replace "main.c" and "ath.h" from "android_kernel_samsung_aries/tree/cm-11.0-bcmon/drivers/net/wireless/ath"
+
+or
+
 --> Copy the driver from "android_kernel_samsung_aries/tree/cm-11.0-bcmon/drivers/net/wireless/ath"
 
 drivers/net/wireless/bcmdhd --> Use Orginal Driver
