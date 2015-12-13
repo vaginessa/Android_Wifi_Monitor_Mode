@@ -69,6 +69,16 @@ If all run ok, We will build a new Cyanogenmod + Kernel ,
 Now,  lets build the with Monitor Mode support
 
 3. Add Monitor Mode support in Cyanogenmod
+Some kernels have mess up with ath Driver so here is my solution:
+
+drivers/net/wireless/ath 
+--> Copy the driver from "android_kernel_samsung_aries/tree/cm-11.0-bcmon/drivers/net/wireless/ath"
+drivers/net/wireless/bcmdhd --> Use Orginal Driver
+drivers/net/wireless/rt2x00 --> Use Orginal Driver
+drivers/net/wireless/rtl818x --> Use Orginal Driver
+drivers/net/wireless/rtlwifi --> Use Orginal Driver
+
+
 
 4. How to Build Kernel Only
 
@@ -86,7 +96,9 @@ adb reboot bootloader
 
 sudo heimdall flash --BOOT boot.img --no-reboot
 (For Samsung Device, apt-get install heimdall )
+
 or
+
 sudo fastboot flash boot boot.img
 (For Other Device, apt-get install fastboot )
 
