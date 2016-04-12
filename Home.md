@@ -115,5 +115,5 @@ sudo fastboot flash boot boot.img
 
 
 
-
+https://blog.afoolishmanifesto.com/posts/replacing-your-cyanogenmod-kernel-for-fun-and-profit/
 
