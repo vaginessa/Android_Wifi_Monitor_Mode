@@ -60,7 +60,7 @@ External WiFi card
 
 [Build Cyanogenmod](https://wiki.cyanogenmod.org/w/Build_for_jflte)
 
-Or
+OR
 
 [Other Info](http://androidforums.com/threads/building-cm12-work-in-progress-join-in.891676/)
 
