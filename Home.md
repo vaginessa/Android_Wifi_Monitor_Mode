@@ -72,7 +72,9 @@ Now,  lets build the with Monitor Mode support
 
 make menuconfig
 Networking:
+
 [ * ] Common routines for IEEE802.11 drivers
+
 [ * ] Generic IEEE 802.11 Networking Stack (mac80211)
 
 Some kernels have mess up with ath Driver so here is my solution:
