@@ -58,6 +58,7 @@ External WiFi card
 2. We need to Download Cyanogenmod prerequisites, follow this tut:
 
 BEST:
+
 https://blog.afoolishmanifesto.com/posts/replacing-your-cyanogenmod-kernel-for-fun-and-profit/
 
 OR
