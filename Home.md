@@ -110,7 +110,9 @@ Build BootImage:
 . build/envsetup.sh
 
 lunch cm_n7100-userdebug 
-or 
+
+or
+ 
 lunch cm_n7100-eng
 
 mka bootimage
