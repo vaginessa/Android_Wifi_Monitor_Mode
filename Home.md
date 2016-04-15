@@ -84,6 +84,12 @@ Networking:
 
 Some kernels have mess up with ath Driver so here is my solution:
 
+Replacing /drivers/net/wireless/ath with the sources from original 3.0.31 kernel makes the
+ath9k and ath9k_htc modules work, which is fairly interesting in terms of using it with nethunter.
+The smdk4412 sources are messed somehow, if you re-enable the ath9k Makefile.
+
+OR
+
 drivers/net/wireless/ath 
 --> remove compat section from MakeFile (first 3 lines),
 
@@ -102,11 +108,6 @@ drivers/net/wireless/rtl818x --> Use Orginal Driver
 
 drivers/net/wireless/rtlwifi --> Use Orginal Driver
 
-OR
-
-Replacing /drivers/net/wireless/ath with the sources from original 3.0.31 kernel makes the
-ath9k and ath9k_htc modules work, which is fairly interesting in terms of using it with nethunter.
-The smdk4412 sources are messed somehow, if you reenable the ath9k Makefile.
 
 4. How to Build Kernel Only
 
