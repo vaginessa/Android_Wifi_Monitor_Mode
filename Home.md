@@ -57,6 +57,10 @@ External WiFi card
 
 2. We need to Download Cyanogenmod prerequisites, follow this tut:
 
+BEST:
+https://blog.afoolishmanifesto.com/posts/replacing-your-cyanogenmod-kernel-for-fun-and-profit/
+
+OR
 
 [Build Cyanogenmod](https://wiki.cyanogenmod.org/w/Build_for_jflte)
 
@@ -109,11 +113,12 @@ Build BootImage:
 
 . build/envsetup.sh
 
-lunch cm_n7100-userdebug 
 
-or
- 
 lunch cm_n7100-eng
+
+OR
+
+lunch cm_n7100-userdebug 
 
 mka bootimage
 
@@ -129,5 +134,5 @@ sudo fastboot flash boot boot.img
 
 
 
-https://blog.afoolishmanifesto.com/posts/replacing-your-cyanogenmod-kernel-for-fun-and-profit/
+
 
