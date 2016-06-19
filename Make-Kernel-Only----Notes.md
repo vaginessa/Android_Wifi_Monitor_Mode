@@ -23,7 +23,7 @@ make  CROSS_COMPILE=~/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/arm-eabi/bin/ ARC
 
 make  CROSS_COMPILE=~/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/arm-eabi/bin/ ARCH=arm menuconfig
 
-make  CROSS_COMPILE=~/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/arm-eabi/bin/ ARCH=arm mrprepr
+make  CROSS_COMPILE=~/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/arm-eabi/bin/ ARCH=arm mrproper
 
 make  CROSS_COMPILE=~/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/arm-eabi/bin/ ARCH=arm  clean
 
