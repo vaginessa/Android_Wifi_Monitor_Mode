@@ -7,6 +7,7 @@ For ATH9K Wireless:
 +source "drivers/net/wireless/ath/Kconfig"
 
 ~/kernel/samsung/smdk4412/drivers/net/wireless/Makefile
+
 +obj-$(CONFIG_ATH_COMMON)        += ath/
 
 For UAS Driver:
