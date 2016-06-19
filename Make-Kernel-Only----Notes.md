@@ -9,7 +9,7 @@ For ATH9K Wireless:
 
 For UAS Driver:
 ~/kernel/samsung/smdk4412/drivers/usb/storage/KConfig
-#       depends on USB && SCSI && BROKEN
+-depends on USB && SCSI && BROKEN
 
 Make Kernel:
 make  CROSS_COMPILE=~/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/arm-eabi/bin/ ARCH=arm cyanogenmod_n7100_defconfig
